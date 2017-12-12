@@ -5,3 +5,8 @@ exports.getPrices = () => {
 }
 
 //Exercice 2
+const products = [ 'tomato', 'cucumber', 'tomato', 'salad', 'potato', 'cucumber', 'potato', 'potato', 'tomato', 'potato' ];
+
+exports.countArticles = (products) => {
+	return products.length
+}
